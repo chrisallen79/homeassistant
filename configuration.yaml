@@ -1,0 +1,11 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include conf/groups.yaml
+automation: !include conf/automations.yaml
+script: !include conf/scripts.yaml
+scene: !include conf/scenes.yaml

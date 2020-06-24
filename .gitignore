@@ -1,0 +1,34 @@
+# system files
+.*
+
+# application files and folders
+home-assistant_v2.db
+pyozw.sqlite
+deps
+tts
+
+# file types
+*.pid
+*.xml
+*.csr
+*.crt
+*.key
+
+# logs
+OZW_Log.txt
+home-assistant.log
+
+# sensitive information
+entity_registry.yaml
+secrets.yaml
+known_devices.yaml
+
+# device conf files
+*.conf
+ios.conf
+nest.conf
+phue.conf
+
+# Git
+!/.gitignore
+gitupdate.sh
